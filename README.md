@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 💻 Projeto WhatsLab
+   
+## :dart: Objetivo do projeto:
+Esse foi o primeiro projeto React desenvolvido na 5ª semana do bootcamp de desenvolvimento web fullstack da Labenu. O objetivo era criar uma interface de chat bastante simplificada e aplicar os conceitos iniciais do React que foram apresentados ao longo da semana,tais como: Criar um projeto React com o node (npx create-react-app nome-do-app), rodar um projeto React (npm run start), deploy com Surge (npm install -g surge > npm run build > surge ./build), o que é JSX e quais são suas diferenças para o HTML, o que é um componente e quando criá-los, props (o que são, para que servem e como usá-las), componentes Funcionais, introdução ao styled-components, componentes de Classe, estados (o que são, para que servem e como usá-los), inputs controlados, renderização de listas e mnipulação de listas no estado (adicionar, modificar e remover itens)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :small_blue_diamond: Requisitos do projeto:
+   
+- **Lista de mensagens**
+   - Cada mensagem deve possuir um remetente (ou seja, um usuário que enviou) e o conteúdo em si. 
+   
+- **Envio de mensagem**
+   - Abaixo da lista citada, deve existir um local onde o usuário escolhe o nome do remetente (input), o conteúdo da mensagem (input) e um botão de enviar;
+   - No layout, eles devem ficar um ao lado do outro. Sendo o campo do remetente com largura muito menor do que o campo do conteúdo;
+   - Ao enviar a mensagem, os campos devem ser resetados para ficar em branco novamente.
+   
+<br>
 
-## Available Scripts
+## ⚙️ Funcionalidades:
+   - Tanto o botão de enviar quanto o botão "enter" envião as mensagens;
+   - Ao clicar duas vezes em cima de alguma mensagem será apresentado ao usuário a possibilidade de excluir a mensagem clicada;
+   - Ao enviar as mensagens os campos de inputs são resetados.
 
-In the project directory, you can run:
+## :books: Bibliotecas utilizadas:
+- [styled-components](https://styled-components.com/)
 
-### `npm start`
+## 🔗 Link Surge: 
+[Acesse o whatsLabe clicando aqui!!!](https://spotted-girl.surge.sh/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 👨‍💻 Desenvolvedora:
+   
+| [<img src="https://avatars.githubusercontent.com/u/50851374?v=4" width=115><br><sub>Layane Bastos Juvito</sub>](https://www.linkedin.com/in/layanebastos/)
+| :---: | 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Imagens:
 
-### `npm test`
+#### MOBILE (exemplo usando o iphone 12 Pro)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/50851374/168082122-1a16c2e0-de11-4fe9-850c-032426ce7301.png)
+![image](https://user-images.githubusercontent.com/50851374/168082318-81b5d758-0a8a-41ba-b29e-5d41fb645e74.png)
 
-### `npm run build`
+#### DESKTOP
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/50851374/168082469-3f4963af-010f-48ce-9a54-dccbe4edb32c.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
